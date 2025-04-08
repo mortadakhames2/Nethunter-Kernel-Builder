@@ -13,9 +13,9 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/FalconJaw/android-kernel-tools.git",
-        "branch": "tools",
-        "name": "clang"
+        "repo": "https://github.com/Adrilaw/aarch64-linux-android-4.9-toolchain.git",
+        "branch": "master",
+        "name": "clangg"
       }
     ],
     "params": {
