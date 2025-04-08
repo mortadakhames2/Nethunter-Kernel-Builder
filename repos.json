@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
       "name": "MikasaNethunter",
-      "repo": "https://github.com/noophyy/mikasa_kernel_realme2_c1.git",
+      "repo": "https://github.com/noobandnothing/android_kernel_samsung_a30s",
       "branch": "Light",
-      "device": "mikasa"
+      "device": "a30s"
     },
     "withKernelSU": false,
     "toolchains": [
