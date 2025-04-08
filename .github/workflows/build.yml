@@ -177,13 +177,13 @@ jobs:
           pwd
           find ./${{ env.kernelDir }}/${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/ -type f
 
-      - name: "💛 Upload Image"
-        uses: actions/upload-artifact@v3
-        with:
-          name: Image(${{ env.kernelDevice }}-${{ env.kernelName }}-${{ env.kernelBranch }})
-          path: ./${{ env.kernelDir }}/${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/Image
-          if-no-files-found: ignore
-          retention-days: 7
+      - name: " Upload Image"
+  uses: actions/upload-artifact@v4
+  with:
+    name: Image(${{ env.kernelDevice }}-${{ env.kernelName }}-${{ env.kernelBranch }})
+    path: ./${{ env.kernelDir }}/${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/Image
+    if-no-files-found: ignore
+    retention-days: 7
 
       - name: "💙 Upload Image.gz"
         uses: actions/upload-artifact@v3
