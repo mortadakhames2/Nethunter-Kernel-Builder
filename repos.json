@@ -2,7 +2,7 @@
     "kernelSource": {
       "name": "MarwanNethunter",
       "repo": "https://github.com/noobandnothing/android_kernel_samsung_a30s.git",
-      "branch": "a30s",
+      "branch": "main",
       "device": "a30s"
     },
     "withKernelSU": false,
