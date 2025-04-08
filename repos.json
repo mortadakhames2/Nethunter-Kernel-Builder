@@ -13,8 +13,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/kdrag0n/proton-clang.git",
-        "branch": "master",
+        "repo": "https://github.com/FalconJaw/android-kernel-tools.git",
+        "branch": "tools",
         "name": "clang"
       }
     ],
